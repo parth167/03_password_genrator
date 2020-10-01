@@ -12,7 +12,7 @@ function generatePassword() {
   var allCharacters = " ";
    
   //prompt user for length of password
-  charLength = Number(prompt("How Many Characters do you want for your password? (Choose a number between 8 and 128"))
+  charLength = Number(prompt("How Many Characters do you want for your password? (Choose a number between 8 and 128)")
   
   //check if password is a number
   if(!isNaN(charLength)){
