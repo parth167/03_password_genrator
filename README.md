@@ -1,6 +1,6 @@
 # 03_password_generator
 
- 1. For this repository, I have created a Javascript Password Generator. This application generates a random password based on user-selected criteria. The application combines the HTML, CSS, and now Javascript tools we have been covering in the Bootcamp. 
+1. For this repository, I have created a Javascript Password Generator. This application generates a random password based on user-selected criteria. The application combines the HTML, CSS, and now Javascript tools we have been covering in the Bootcamp. 
 
 # The user will be prompted to choose from the following:
 
