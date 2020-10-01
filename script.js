@@ -12,12 +12,12 @@ function generatePassword() {
   var allCharacters = " ";
    
   //prompt user for length of password
-  charLength = Number(prompt("How Many Characters do you want for your password? (Choose a number between 8 and 128)")
+  charLength = Number(prompt("How Many Characters do you want for your password? (Choose a number between 8 and 128)"));
   
   //check if password is a number
-  if(!isNaN(charLength)){
-   }else alert("That's Not a number, Please enter a number"); 
-  
+  if (isNaN(charLength)){
+   alert("That's Not a number, Please enter a number"); 
+  }
   //alert if password is less than 8 
   if (charLength<8){
     alert("You know that password isn't long enough")
