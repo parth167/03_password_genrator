@@ -4,7 +4,7 @@ var generateBtn = document.querySelector("#generate");
 function generatePassword() {
   
   // all the veriable list
-  var characterList = "";
+   characterList = '';
   var lowercaseList = "abcdefghijklmnopqrstuvwxyz";
   var uppercaseList = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var numbersList = "0123456789";
